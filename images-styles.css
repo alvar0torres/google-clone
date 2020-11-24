@@ -1,0 +1,84 @@
+.search-box{
+    border-radius: 35px;
+    height: 47px;
+    width: 575px;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    background-image: url('microphone.png'), url('lupa.png'), url('camera.png');
+    background-repeat: no-repeat;
+    background-size: 14px 20px, 15px 15px, 23px 23px;
+    background-position: 510px, 15px, 470px;
+    padding-left: 40px;
+    padding-right: 115px;
+}
+
+.lupa-blue{
+    
+    width: 18px;
+    height: 18px;
+    margin-left: -35px;
+    outline: none;
+    
+}
+
+
+
+.search-box:hover{
+    box-shadow: 0px 1px 5px 0px lightgrey;
+    border-color: white;
+    
+}
+
+#main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height:66vh;
+
+}
+
+
+.blank-line{
+    height: 25px;
+}
+
+.boton{
+    border-color: white;
+    border-radius:5px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 37px;
+    width: 127px;
+    color: #454140 ;
+    outline: none;
+}
+
+.boton:hover{
+    
+    box-shadow: 0px 0px 2px 1px rgb(165, 165, 165);
+}
+
+.link{
+    display: inline-block;
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 15px;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.derecha{
+    text-align:right;
+}
